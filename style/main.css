@@ -1,0 +1,80 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.bg1 {
+  background-color: #1b2b34;
+}
+
+.bg2 {
+  background-color: #4f5b66;
+}
+
+.color1 {
+  color: #99C794
+}
+
+.color2 {
+  color: #EC5f67
+}
+
+.color3 {
+  color: #FAC863
+}
+
+.color4 {
+  color: #99C794;
+}
+
+.color5 {
+  color: #6699CC;
+}
+
+@font-face{
+  font-family: OverpassMono;
+  src: url(../static/OverpassMono-Regular.ttf);
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face{
+  font-family: OverpassMono;
+  src: url(../static/OverpassMono-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal
+}
+
+ul.terminalElement {
+  font-size: 25px;
+  font-family: 'OverpassMono', monospace;
+  color: #FFF;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.terminalElement i {
+  font-style: normal
+}
+
+.choice {
+  cursor: pointer;
+}
+
+#terminal {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  ul.terminalElement {
+    font-size: 15px;
+    margin: 10px;
+  }
+  #terminal > ul > li:nth-child(3) {
+    font-size: 11px;
+  }
+  #terminal > ul > li:nth-child(1) {
+    font-size: 8px;
+  }
+}
