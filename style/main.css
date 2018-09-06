@@ -78,3 +78,58 @@ ul.terminalElement i {
     font-size: 8px;
   }
 }
+
+.logo{
+  color: #FFF;
+}
+
+.logoDiv{
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+  height: 15vh;
+  margin-left: 5vw;
+  display: flex;
+  align-items: center;
+}
+
+.final{
+  width: 100vw;
+  height: 100vh;
+}
+
+.view-lines{
+  font-size: 16px;
+}
+
+.mtk1 { color: #d4d4d4; }
+.mtk2 { color: #1e1e1e; }
+.mtk3 { color: #cc6666; }
+.mtk4 { color: #9cdcfe; }
+.mtk5 { color: #ce9178; }
+.mtk6 { color: #b5cea8; }
+.mtk7 { color: #608b4e; }
+.mtk8 { color: #569cd6; }
+.mtk9 { color: #dcdcdc; }
+.mtk10 { color: #808080; }
+.mtk11 { color: #f44747; }
+.mtk12 { color: #c586c0; }
+.mtk13 { color: #a79873; }
+.mtk14 { color: #dd6a6f; }
+.mtk15 { color: #5bb498; }
+.mtk16 { color: #909090; }
+.mtk17 { color: #778899; }
+.mtk18 { color: #ff00ff; }
+.mtk19 { color: #b46695; }
+.mtk20 { color: #ff0000; }
+.mtk21 { color: #4f76ac; }
+.mtk22 { color: #3dc9b0; }
+.mtk23 { color: #74b0df; }
+.mtk24 { color: #4864aa; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }
