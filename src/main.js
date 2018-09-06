@@ -119,82 +119,197 @@ e820: BIOS-provided physical RAM map: <br>
                                 setTimeout(() => {
                                   console.log(now)
                                   term.insert(new ASCIIArt(`
-                                    已得出运算结果：${now.lang}
+                                    已得出运算结果：和我最相像的编程语言是: ${now.lang} !
                                   `))
                                   const termEle = document.getElementById('terminal')
                                   if (now.lang === 'C++') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" >
  ######
 ##    ##   ##     ##
 ##         ##     ##
 ##       ###### ######
 ##         ##     ##
 ##    ##   ##     ##
- ######
-                                      </pre>
-                                    </div>
-                                    `
+ ######</pre>
+ </div>
+   <div class="info">
+     <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+     <br>
+     <div class="intro">
+       <span class="introHead">Here lists some of the most famous projects written in C++: </span>
+       <br>
+       <div class="itemContainer">
+         <span class="introItem">* FaceBook</span>
+         <br>
+         <span class="introItem">* Discuz</span>
+         <br>
+         <span class="introItem">* WordPress</span>
+         <br>
+         <span class="introItem">* phpMyAdmin</span>
+       </div>
+     </div>
+     <div class="imageGallery">
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+       <div style="width: 5vw"></div>
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+     </div>
+   </div>
+ </div>`
                                   } else if (now.lang === 'C') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" >
  ######
 ##    ##
 ##
 ##
 ##
 ##    ##
- ######
-                                      </pre>
-                                    </div>
-                                    `
+ ######</pre>
+ </div>
+   <div class="info">
+     <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+     <br>
+     <div class="intro">
+       <span class="introHead">Here lists some of the most famous projects written in C: </span>
+       <br>
+       <div class="itemContainer">
+         <span class="introItem">* FaceBook</span>
+         <br>
+         <span class="introItem">* Discuz</span>
+         <br>
+         <span class="introItem">* WordPress</span>
+         <br>
+         <span class="introItem">* phpMyAdmin</span>
+       </div>
+     </div>
+     <div class="imageGallery">
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+       <div style="width: 5vw"></div>
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+     </div>
+   </div>
+ </div>
+`
                                   } else if (now.lang === 'Rust') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" >
 ########  ##     ##  ######  ########
 ##     ## ##     ## ##    ##    ##
 ##     ## ##     ## ##          ##
 ########  ##     ##  ######     ##
 ##   ##   ##     ##       ##    ##
 ##    ##  ##     ## ##    ##    ##
-##     ##  #######   ######     ##
-                                      </pre>
-                                    </div>
-                                    `
+##     ##  #######   ######     ##</pre>
+</div>
+  <div class="info">
+    <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+    <br>
+    <div class="intro">
+      <span class="introHead">Here lists some of the most famous projects written in Rust: </span>
+      <br>
+      <div class="itemContainer">
+        <span class="introItem">* FaceBook</span>
+        <br>
+        <span class="introItem">* Discuz</span>
+        <br>
+        <span class="introItem">* WordPress</span>
+        <br>
+        <span class="introItem">* phpMyAdmin</span>
+      </div>
+    </div>
+    <div class="imageGallery">
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+      <div style="width: 5vw"></div>
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+    </div>
+  </div>
+</div>
+`
                                   } else if (now.lang === 'Java') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" >
       ##    ###    ##     ##    ###
       ##   ## ##   ##     ##   ## ##
       ##  ##   ##  ##     ##  ##   ##
       ## ##     ## ##     ## ##     ##
 ##    ## #########  ##   ##  #########
 ##    ## ##     ##   ## ##   ##     ##
- ######  ##     ##    ###    ##     ##
-                                      </pre>
-                                    </div>
-                                    `
+ ######  ##     ##    ###    ##     ##</pre>
+ </div>
+   <div class="info">
+     <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+     <br>
+     <div class="intro">
+       <span class="introHead">Here lists some of the most famous projects written in Java: </span>
+       <br>
+       <div class="itemContainer">
+         <span class="introItem">* FaceBook</span>
+         <br>
+         <span class="introItem">* Discuz</span>
+         <br>
+         <span class="introItem">* WordPress</span>
+         <br>
+         <span class="introItem">* phpMyAdmin</span>
+       </div>
+     </div>
+     <div class="imageGallery">
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+       <div style="width: 5vw"></div>
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+     </div>
+   </div>
+ </div>
+`
                                   } else if (now.lang === 'Python') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" >
 ########  ##    ## ######## ##     ##  #######  ##    ##
 ##     ##  ##  ##     ##    ##     ## ##     ## ###   ##
 ##     ##   ####      ##    ##     ## ##     ## ####  ##
 ########     ##       ##    ######### ##     ## ## ## ##
 ##           ##       ##    ##     ## ##     ## ##  ####
 ##           ##       ##    ##     ## ##     ## ##   ###
-##           ##       ##    ##     ##  #######  ##    ##                                      
-                                      </pre>
-                                    </div>
-                                    `
+##           ##       ##    ##     ##  #######  ##    ##</pre>
+</div>
+  <div class="info">
+    <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+    <br>
+    <div class="intro">
+      <span class="introHead">Here lists some of the most famous projects written in Python: </span>
+      <br>
+      <div class="itemContainer">
+        <span class="introItem">* FaceBook</span>
+        <br>
+        <span class="introItem">* Discuz</span>
+        <br>
+        <span class="introItem">* WordPress</span>
+        <br>
+        <span class="introItem">* phpMyAdmin</span>
+      </div>
+    </div>
+    <div class="imageGallery">
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+      <div style="width: 5vw"></div>
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+    </div>
+  </div>
+</div>
+`
                                   } else if (now.lang === 'JavaScript') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
+                                    <div class="final">
+                                      <div class="logoDiv">
                                       <pre class="logo" style="color: #FFF; font-size: 6.8px">
       ##    ###    ##     ##    ###     ######   ######  ########  #### ########  ########
       ##   ## ##   ##     ##   ## ##   ##    ## ##    ## ##     ##  ##  ##     ##    ##
@@ -202,66 +317,180 @@ e820: BIOS-provided physical RAM map: <br>
       ## ##     ## ##     ## ##     ##  ######  ##       ########   ##  ########     ##
 ##    ## #########  ##   ##  #########       ## ##       ##   ##    ##  ##           ##
 ##    ## ##     ##   ## ##   ##     ## ##    ## ##    ## ##    ##   ##  ##           ##
- ######  ##     ##    ###    ##     ##  ######   ######  ##     ## #### ##           ##                        
-                                      </pre>
-                                    </div>
-                                    `
+ ######  ##     ##    ###    ##     ##  ######   ######  ##     ## #### ##           ##</pre>
+ </div>
+   <div class="info">
+     <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+     <br>
+     <div class="intro">
+       <span class="introHead">Here lists some of the most famous projects written in Javascript: </span>
+       <br>
+       <div class="itemContainer">
+         <span class="introItem">* FaceBook</span>
+         <br>
+         <span class="introItem">* Discuz</span>
+         <br>
+         <span class="introItem">* WordPress</span>
+         <br>
+         <span class="introItem">* phpMyAdmin</span>
+       </div>
+     </div>
+     <div class="imageGallery">
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+       <div style="width: 5vw"></div>
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+     </div>
+   </div>
+ </div>
+`
                                   } else if (now.lang === 'Go') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" style="color: #FFF">
  ######    #######
 ##    ##  ##     ##
 ##        ##     ##
 ##   #### ##     ##
 ##    ##  ##     ##
 ##    ##  ##     ##
- ######    #######                                      
-                                      </pre>
-                                    </div>
-                                    `
+ ######    #######</pre>
+ </div>
+   <div class="info">
+     <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+     <br>
+     <div class="intro">
+       <span class="introHead">Here lists some of the most famous projects written in Go: </span>
+       <br>
+       <div class="itemContainer">
+         <span class="introItem">* FaceBook</span>
+         <br>
+         <span class="introItem">* Discuz</span>
+         <br>
+         <span class="introItem">* WordPress</span>
+         <br>
+         <span class="introItem">* phpMyAdmin</span>
+       </div>
+     </div>
+     <div class="imageGallery">
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+       <div style="width: 5vw"></div>
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+     </div>
+   </div>
+ </div>
+`
                                   } else if (now.lang === 'Swift') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" style="color: #FFF">
  ######  ##      ## #### ######## ########
 ##    ## ##  ##  ##  ##  ##          ##
 ##       ##  ##  ##  ##  ##          ##
  ######  ##  ##  ##  ##  ######      ##
       ## ##  ##  ##  ##  ##          ##
 ##    ## ##  ##  ##  ##  ##          ##
- ######   ###  ###  #### ##          ##                                      
-                                      </pre>
-                                    </div>
-                                    `
+ ######   ###  ###  #### ##          ##</pre>
+ </div>
+   <div class="info">
+     <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+     <br>
+     <div class="intro">
+       <span class="introHead">Here lists some of the most famous projects written in Swift: </span>
+       <br>
+       <div class="itemContainer">
+         <span class="introItem">* FaceBook</span>
+         <br>
+         <span class="introItem">* Discuz</span>
+         <br>
+         <span class="introItem">* WordPress</span>
+         <br>
+         <span class="introItem">* phpMyAdmin</span>
+       </div>
+     </div>
+     <div class="imageGallery">
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+       <div style="width: 5vw"></div>
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+     </div>
+   </div>
+ </div>
+`
                                   } else if (now.lang === 'Dart') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" style="color: #FFF">
 ########     ###    ########  ########
 ##     ##   ## ##   ##     ##    ##
 ##     ##  ##   ##  ##     ##    ##
 ##     ## ##     ## ########     ##
 ##     ## ######### ##   ##      ##
 ##     ## ##     ## ##    ##     ##
-########  ##     ## ##     ##    ##                                      
-                                      </pre>
-                                    </div>
-                                    `
+########  ##     ## ##     ##    ##</pre>
+</div>
+  <div class="info">
+    <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+    <br>
+    <div class="intro">
+      <span class="introHead">Here lists some of the most famous projects written in Dart: </span>
+      <br>
+      <div class="itemContainer">
+        <span class="introItem">* FaceBook</span>
+        <br>
+        <span class="introItem">* Discuz</span>
+        <br>
+        <span class="introItem">* WordPress</span>
+        <br>
+        <span class="introItem">* phpMyAdmin</span>
+      </div>
+    </div>
+    <div class="imageGallery">
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+      <div style="width: 5vw"></div>
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+    </div>
+  </div>
+</div>
+`
                                   } else if (now.lang === 'Ceylon') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" style="color: #FFF">
  ######  ######## ##    ## ##        #######  ##    ##
 ##    ## ##        ##  ##  ##       ##     ## ###   ##
 ##       ##         ####   ##       ##     ## ####  ##
 ##       ######      ##    ##       ##     ## ## ## ##
 ##       ##          ##    ##       ##     ## ##  ####
 ##    ## ##          ##    ##       ##     ## ##   ###
- ######  ########    ##    ########  #######  ##    ##                                      
-                                      </pre>
-                                    </div>
-                                    `
+ ######  ########    ##    ########  #######  ##    ##</pre>
+ </div>
+   <div class="info">
+     <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+     <br>
+     <div class="intro">
+       <span class="introHead">Here lists some of the most famous projects written in Ceylon: </span>
+       <br>
+       <div class="itemContainer">
+         <span class="introItem">* FaceBook</span>
+         <br>
+         <span class="introItem">* Discuz</span>
+         <br>
+         <span class="introItem">* WordPress</span>
+         <br>
+         <span class="introItem">* phpMyAdmin</span>
+       </div>
+     </div>
+     <div class="imageGallery">
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+       <div style="width: 5vw"></div>
+       <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+     </div>
+   </div>
+ </div>
+`
                                   } else if (now.lang === 'PHP') {
                                     termEle.innerHTML += `
                                     <div class="final">
@@ -275,67 +504,178 @@ e820: BIOS-provided physical RAM map: <br>
   ##        ##     ## ##
   ##        ##     ## ##</pre>
                                       </div>
-                                      <div class="info">
-                                      <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="position: absolute; font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; font-size: 14px; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div><div style="top:57px;height:19px;" class="view-line"><span><span>&nbsp;</span></span></div></div>
+                                        <div class="info">
+                                          <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+                                          <br>
+                                          <div class="intro">
+                                            <span class="introHead">Here lists some of the most famous projects written in PHP: </span>
+                                            <br>
+                                            <div class="itemContainer">
+                                              <span class="introItem">* FaceBook</span>
+                                              <br>
+                                              <span class="introItem">* Discuz</span>
+                                              <br>
+                                              <span class="introItem">* WordPress</span>
+                                              <br>
+                                              <span class="introItem">* phpMyAdmin</span>
+                                            </div>
+                                          </div>
+                                          <div class="imageGallery">
+                                            <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+                                            <div style="width: 5vw"></div>
+                                            <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+                                          </div>
+                                        </div>
                                       </div>
-                                    </div>
                                     `
                                   } else if (now.lang === 'Perl 6') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" style="color: #FFF">
 ########  ######## ########  ##           #######
 ##     ## ##       ##     ## ##          ##     ##
 ##     ## ##       ##     ## ##          ##
 ########  ######   ########  ##          ########
 ##        ##       ##   ##   ##          ##     ##
 ##        ##       ##    ##  ##          ##     ##
-##        ######## ##     ## ########     #######                                      
-                                      </pre>
-                                    </div>
-                                    `
+##        ######## ##     ## ########     #######</pre>
+</div>
+  <div class="info">
+    <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+    <br>
+    <div class="intro">
+      <span class="introHead">Here lists some of the most famous projects written in Perl6: </span>
+      <br>
+      <div class="itemContainer">
+        <span class="introItem">* FaceBook</span>
+        <br>
+        <span class="introItem">* Discuz</span>
+        <br>
+        <span class="introItem">* WordPress</span>
+        <br>
+        <span class="introItem">* phpMyAdmin</span>
+      </div>
+    </div>
+    <div class="imageGallery">
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+      <div style="width: 5vw"></div>
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+    </div>
+  </div>
+</div>
+`
                                   } else if (now.lang === 'Erlang') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" style="color: #FFF">
 ######## ########  ##          ###    ##    ##  ######
 ##       ##     ## ##         ## ##   ###   ## ##    ##
 ##       ##     ## ##        ##   ##  ####  ## ##
 ######   ########  ##       ##     ## ## ## ## ##   ####
 ##       ##   ##   ##       ######### ##  #### ##    ##
 ##       ##    ##  ##       ##     ## ##   ### ##    ##
-######## ##     ## ######## ##     ## ##    ##  ######
-                                      </pre>
-                                    </div>
-                                    `
+######## ##     ## ######## ##     ## ##    ##  ######</pre>
+</div>
+  <div class="info">
+    <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+    <br>
+    <div class="intro">
+      <span class="introHead">Here lists some of the most famous projects written in Erlang: </span>
+      <br>
+      <div class="itemContainer">
+        <span class="introItem">* FaceBook</span>
+        <br>
+        <span class="introItem">* Discuz</span>
+        <br>
+        <span class="introItem">* WordPress</span>
+        <br>
+        <span class="introItem">* phpMyAdmin</span>
+      </div>
+    </div>
+    <div class="imageGallery">
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+      <div style="width: 5vw"></div>
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+    </div>
+  </div>
+</div>
+`
                                   } else if (now.lang === 'Ruby') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" style="color: #FFF">
 ########  ##     ## ########  ##    ##
 ##     ## ##     ## ##     ##  ##  ##
 ##     ## ##     ## ##     ##   ####
 ########  ##     ## ########     ##
 ##   ##   ##     ## ##     ##    ##
 ##    ##  ##     ## ##     ##    ##
-##     ##  #######  ########     ##                                      
-                                      </pre>
-                                    </div>
-                                    `
+##     ##  #######  ########     ##</pre>
+</div>
+  <div class="info">
+    <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+    <br>
+    <div class="intro">
+      <span class="introHead">Here lists some of the most famous projects written in Ruby: </span>
+      <br>
+      <div class="itemContainer">
+        <span class="introItem">* FaceBook</span>
+        <br>
+        <span class="introItem">* Discuz</span>
+        <br>
+        <span class="introItem">* WordPress</span>
+        <br>
+        <span class="introItem">* phpMyAdmin</span>
+      </div>
+    </div>
+    <div class="imageGallery">
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+      <div style="width: 5vw"></div>
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+    </div>
+  </div>
+</div>
+`
                                   } else if (now.lang === 'Bash') {
                                     termEle.innerHTML += `
-                                    <div style="width: 100vw;height: 100vh">
-                                      <pre class="logo" style="color: #FFF">
+                                    <div class="final">
+                                      <div class="logoDiv">
+                                        <pre class="logo" style="color: #FFF">
 ########     ###     ######  ##     ##
 ##     ##   ## ##   ##    ## ##     ##
 ##     ##  ##   ##  ##       ##     ##
 ########  ##     ##  ######  #########
 ##     ## #########       ## ##     ##
 ##     ## ##     ## ##    ## ##     ##
-########  ##     ##  ######  ##     ##                                      
-                                      </pre>
-                                    </div>
-                                    `
+########  ##     ##  ######  ##     ##</pre>
+</div>
+  <div class="info">
+    <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+    <br>
+    <div class="intro">
+      <span class="introHead">Here lists some of the most famous projects written in Bash: </span>
+      <br>
+      <div class="itemContainer">
+        <span class="introItem">* FaceBook</span>
+        <br>
+        <span class="introItem">* Discuz</span>
+        <br>
+        <span class="introItem">* WordPress</span>
+        <br>
+        <span class="introItem">* phpMyAdmin</span>
+      </div>
+    </div>
+    <div class="imageGallery">
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/qsc.png" />
+      <div style="width: 5vw"></div>
+      <img class="image" src="https://sea.zjuqsc.com/thumbnail/958ce12e-0bbc-41ca-82b5-8c6a52c48718/1024/mobile.png" />
+    </div>
+  </div>
+</div>
+`
                                   }
                                   document.documentElement.scrollTop = document.documentElement.scrollHeight
                                 })

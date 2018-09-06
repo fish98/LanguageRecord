@@ -91,10 +91,9 @@ ul.terminalElement i {
 }
 
 .info{
-  height: 15vh;
+  height: 40vh;
   margin-left: 5vw;
-  display: flex;
-  align-items: center;
+  margin-right: 5vw;
 }
 
 .final{
@@ -102,9 +101,40 @@ ul.terminalElement i {
   height: 100vh;
 }
 
-.view-lines{
-  font-size: 16px;
+.introHead{
+  font-size: 18px;
+  color: white;
+  font-family: monospace;
 }
+
+.itemContainer{
+  margin-top: 2vh;
+}
+
+.introItem{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
+  font-family: monospace;
+}
+
+.view-lines{
+  font-size: 18px;
+}
+
+.imageGallery{
+  height: 30vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.image{
+  height: 20vh;
+}
+
 
 .mtk1 { color: #d4d4d4; }
 .mtk2 { color: #1e1e1e; }
