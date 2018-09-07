@@ -79,6 +79,19 @@ ul.terminalElement i {
   }
 }
 
+@media (max-width: 350px) {
+  #terminal > ul > li:nth-child(1) {
+    font-size: 6.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  div.info {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
 .logo{
   color: #FFF;
 }
@@ -163,3 +176,25 @@ ul.terminalElement i {
 .mtki { font-style: italic; }
 .mtkb { font-weight: bold; }
 .mtku { text-decoration: underline; text-underline-position: under; }
+
+.highlight pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+  color: #000;
+  background-color: #F5F5F5;
+  font-family: monospace; }
+
+.highlight .Comment {
+  color: #657371; }
+.highlight .Special {
+  color: #c000c0;
+  font-weight: bold; }
+.highlight .Identifier {
+  color: #804000; }
+.highlight .Statement {
+  color: #008080;
+  font-weight: bold; }
+.highlight .PreProc {
+  color: #c000c0; }
+.highlight .Type {
+  color: #008000; }
