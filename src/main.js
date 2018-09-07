@@ -571,7 +571,7 @@ e820: BIOS-provided physical RAM map: <br>
 </div>
 `
                                   }
-                                  document.documentElement.scrollTop = document.documentElement.scrollHeight
+                                  window.scrollTo(0, document.body.scrollHeight)
                                 })
                               }, 1000)
                             }, 500)

@@ -35,7 +35,7 @@ export class Terminal {
       this.ele.remove()
     }
     this.container.appendChild(shadowEle)
-    document.documentElement.scrollTop = document.documentElement.scrollHeight
+    window.scrollTo(0, document.body.scrollHeight)
     this.ele = shadowEle
   }
 }
@@ -98,7 +98,7 @@ export class inputInterval extends Line {
     updateStr()
   }
   render() {
-    document.documentElement.scrollTop = document.documentElement.scrollHeight
+    window.scrollTo(0, document.body.scrollHeight)
     let replacedStr = this.str
     for(let i = 0;i<colorList.length;i++) {
       const color = colorList[i]
@@ -119,7 +119,7 @@ export class ASCIIArt extends Line {
     this.str = str
   }
   render() {
-    document.documentElement.scrollTop = document.documentElement.scrollHeight
+    window.scrollTo(0, document.body.scrollHeight)
     const ele = document.createElement('li')
     ele.innerHTML = this.str
     return ele;
@@ -170,7 +170,7 @@ export class Choice extends Line {
   }
   
   render() {
-    document.documentElement.scrollTop = document.documentElement.scrollHeight
+    window.scrollTo(0, document.body.scrollHeight)
     
     return this.ele
   }
@@ -188,7 +188,7 @@ export class Wait extends Line {
         }
       } else {
         this.str = `${i}%`
-        document.documentElement.scrollTop = document.documentElement.scrollHeight
+        window.scrollTo(0, document.body.scrollHeight)
         setTimeout(setPercent.bind(this, i+1), this.duration / 100)
       }
       this.render()
