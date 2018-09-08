@@ -240,12 +240,14 @@ e820: BIOS-provided physical RAM map: <br>
  ######  ##     ##    ###    ##     ##</pre>
  </div>
    <div class="info">
-   <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-size: 15px;font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal;line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk8">public</span><span class="mtk1">&nbsp;</span><span class="mtk8">class</span><span class="mtk1">&nbsp;QSCTech&nbsp;</span><span class="mtk9">{</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk8">public</span><span class="mtk1">&nbsp;</span><span class="mtk8">static</span><span class="mtk1">&nbsp;</span><span class="mtk8">void</span><span class="mtk1">&nbsp;main</span><span class="mtk9">(</span><span class="mtk1">String</span><span class="mtk9">[]</span><span class="mtk1">&nbsp;args</span><span class="mtk9">){</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;System</span><span class="mtk9">.</span><span class="mtk1">out</span><span class="mtk9">.</span><span class="mtk1">println</span><span class="mtk9">(</span><span class="mtk5">"Hello&nbsp;World!"</span><span class="mtk9">);</span></span></div><div style="top:57px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk9">}</span></span></div><div style="top:76px;height:19px;" class="view-line"><span><span class="mtk9">}</span></span></div></div>
+   <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-size: 14px;font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal;line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk8">public</span><span class="mtk1">&nbsp;</span><span class="mtk8">class</span><span class="mtk1">&nbsp;QSCTech&nbsp;</span><span class="mtk9">{</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk8">public</span><span class="mtk1">&nbsp;</span><span class="mtk8">static</span><span class="mtk1">&nbsp;</span><span class="mtk8">void</span><span class="mtk1">&nbsp;main</span><span class="mtk9">(</span><span class="mtk1">String</span><span class="mtk9">[]</span><span class="mtk1">&nbsp;args</span><span class="mtk9">)&nbsp{</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;System</span><span class="mtk9">.</span><span class="mtk1">out</span><span class="mtk9">.</span><span class="mtk1">println</span><span class="mtk9">(</span><span class="mtk5">"Hello&nbsp;World!"</span><span class="mtk9">);</span></span></div><div style="top:57px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;</span><span class="mtk9">}</span></span></div><div style="top:76px;height:19px;" class="view-line"><span><span class="mtk9">}</span></span></div></div>
      <br>
      <div class="intro">
        <span class="introHead">Famous projects written in Java: </span>
        <br>
        <div class="itemContainer">
+         <span class="introItem">* Minecraft</span>
+         <br>
          <span class="introItem">* JetBrains</span>
          <br>
          <span class="introItem">* Android Applications</span>
@@ -279,7 +281,7 @@ e820: BIOS-provided physical RAM map: <br>
       <span class="introHead">Famous projects written in Python: </span>
       <br>
       <div class="itemContainer">
-        <span class="introItem">* Youtube</span>
+        <span class="introItem">* YouTube</span>
         <br>
         <span class="introItem">* Instagram</span>
         <br>
@@ -320,6 +322,8 @@ e820: BIOS-provided physical RAM map: <br>
          <br>
          <span class="introItem">* Electron</span>
        </div>
+       <br>
+       <span class="introHead"># Any application that can be written in JavaScript, will enventually be written in JavaScript.   --Atwood's Law</span>
      </div>
      <div class="imageGallery">
        <a class="image" href="https://joinus.zjuqsc.com"><img class="image" src="./qsc.png" /></a>
@@ -376,7 +380,7 @@ e820: BIOS-provided physical RAM map: <br>
  ######   ###  ###  #### ##          ##</pre>
  </div>
    <div class="info">
-   <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-size:12px;font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal;line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk8">import</span><span class="mtk1">&nbsp;</span><span class="mtk22">Fundation</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span>&nbsp;</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk1">println</span><span class="mtk9">(</span><span class="mtk5">"Hello&nbsp;World!"</span><span class="mtk9">)</span></span></div></div>
+   <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-size:12px;font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal;line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk8">import</span><span class="mtk1">&nbsp;</span><span class="mtk22">Foundation</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span>&nbsp;</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk1">print</span><span class="mtk9">(</span><span class="mtk5">"Hello&nbsp;World!"</span><span class="mtk9">)</span></span></div></div>
      <br>
      <div class="intro">
        <span class="introHead">Famous projects written in Swift: </span>
@@ -442,7 +446,7 @@ e820: BIOS-provided physical RAM map: <br>
   ##        ##     ## ##</pre>
                                       </div>
                                         <div class="info">
-                                          <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"</span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
+                                          <div class="view-lines" role="presentation" aria-hidden="true" data-mprt="7" style="font-family: &quot;Droid Sans Mono&quot;, monospace, monospace, &quot;Droid Sans Fallback&quot;; font-weight: normal; line-height: 19px; letter-spacing: 0px;"><div style="top:0px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">&lt;?php</span></span></div><div style="top:19px;height:19px;" class="view-line"><span><span class="mtk1">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="mtk8">echo</span><span class="mtk1">&nbsp;</span><span class="mtk5">"Hello&nbsp;World!"<span class="mtk1">;</span></span></span></div><div style="top:38px;height:19px;" class="view-line"><span><span class="mtk14 mtkb">?&gt;</span></span></div></div>
                                           <br>
                                           <div class="intro">
                                             <span class="introHead">Famous projects written in PHP: </span>
@@ -450,7 +454,7 @@ e820: BIOS-provided physical RAM map: <br>
                                             <div class="itemContainer">
                                               <span class="introItem">* FaceBook</span>
                                               <br>
-                                              <span class="introItem">* Discuz</span>
+                                              <span class="introItem">* Discuz!</span>
                                               <br>
                                               <span class="introItem">* WordPress</span>
                                               <br>
